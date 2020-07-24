@@ -1,0 +1,408 @@
+body {
+background: url("fond2.jpg") no-repeat center fixed;
+background-size:cover;
+margin: 1px;
+}
+
+/*---------------------------------------------------FONTS---------------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+@font-face {font-family: 'Lato-Regular'; src: url('fonts/Lato-Regular.ttf');}
+@font-face {font-family: 'Lato-Black'; src: url('fonts/Lato-Black.ttf');} 
+@font-face {font-family: 'Lato-BlackItalic'; src: url('fonts/Lato-BlackItalic.ttf');} 
+@font-face {font-family: 'Lato-Bold'; src: url('fonts/Lato-Bold.ttf');} 
+@font-face {font-family: 'Lato-BoldItalic'; src: url('fonts/Lato-BoldItalic.ttf');}
+@font-face {font-family: 'Lato-Hairline'; src: url('fonts/Lato-Hairline.ttf');}
+@font-face {font-family: 'Lato-HairlineItalic'; src: url('fonts/Lato-HairlineItalic.ttf');}
+@font-face {font-family: 'Lato-Light'; src: url('fonts/Lato-Light.ttf');}
+@font-face {font-family: 'Lato-LightItalic'; src: url('fonts/Lato-LightItalic.ttf');}
+
+/*-----------------------------------------------ICON+IMAGE--------------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+#france {
+	width: 550px;
+	margin: 25px;
+}
+
+#statistics {
+	width: 550px;
+	margin: 45px;
+}
+
+#graph {
+	margin: 30px;
+	width: 650px;
+	height: 650px;
+}
+
+.iconsocial{
+	width: 45px;
+	height: 45px;
+}
+
+/*-----------------------------------------------NAVIGATION BAR-----------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+#nav {
+text-align: center;
+width: 100%;
+height: 70px;
+background-color: black;		
+opacity: .8;
+position: relative;
+z-index: 2;
+}
+
+#nav ul {
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
+#nav ul li {
+float: left;
+width: 190px;
+height: 70px;
+line-height: 70px;
+text-align: center;
+font-size:17px;
+}
+
+#nav ul li img {
+width: 100px;
+height: 95px;
+opacity:1;
+}
+
+#nav ul li a {
+text-decoration: none;
+color: white;
+display: block;
+}
+
+#nav ul li a:hover {
+transition: all 0.3s;
+border-bottom-color:orange;
+color:orange;
+}
+
+#nav ul li ul li {
+display: none;
+background-color: black;		
+}
+
+#nav ul li:hover ul li {
+display: block;
+}
+
+/*----------------------------------------------FOOTER & HEADER----------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+header{
+	display: block;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	background-color:#e5e1b3;
+}
+
+footer{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+	background-color: black;		
+    opacity: .9;
+	text-align: center;
+}
+
+footer p{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	width: 100%;
+}
+
+.list_footer{
+	list-style-type: none;
+	width: 300px;
+}
+
+.list_footer li{
+	margin-bottom: 10px;
+	font-family: Lato, sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+.list_footer a{
+	color: white;
+	padding: 2px;
+}
+
+/*-----------------------------------------------FORMULE SEARCH-----------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+#search_form{
+    width: 370px;
+	background: #e5e1b3;
+	margin: 30px;
+	border-radius: 20px;
+	font-family: Lato, sans-serif;
+	font-size: 20px;
+}
+
+#search_input {
+ text-align: right;
+}
+
+#search_export {
+ text-align: left;
+ margin: 15px;
+}
+
+label {
+font-size: 20px;
+}
+
+#search_input input, #search_input select{
+	width: 175px;
+    margin: 15px;
+    margin-right: 44px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	
+}
+
+#search_res{
+	width: 60%;
+    background: #5477ad;
+	border-radius: 20px;
+	margin-top: 30px;
+    text-align: center;
+}
+
+
+#res{
+    background: #B0B0C9;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 2px;
+    display: block;
+} 
+
+.inline {
+	display: inline-block;
+	vertical-align: top;
+}
+
+button[type=submit]{
+    width : 80px;
+	padding: 6px 0 6px 0;
+	border-radius: 8px;
+	background: #5477ad;
+	font: bold 13px Arial;
+	color: #fff;
+    border-color: orange;
+	margin-bottom: 10px;
+}
+
+button[type=submit]:hover{
+    border-color: green;
+	cursor: pointer;
+}
+
+#search_form button[type=submit]{
+	margin-left: 130px;
+}
+
+
+/*---------------------------------------------FORMULE CONTACTE----------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+#contact {
+	width: 700px;
+    border-radius: 20px;
+   background: #e5e1b3;
+    padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Lato, sans-serif;
+	margin-top: 50px;
+}
+
+#contact input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+/*---------------------------------------------------TABLE---------------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+table {
+  font-family: Lato, sans-serif;
+  width:auto;
+  margin: auto;
+}
+
+.resTab table{
+	width: 100%;
+}
+
+.statistiquesTab table{
+border-spacing: 0;
+border-collapse: collapse;
+background-color: white; 
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+   
+.statistiquesTab td, th, tr {
+border: 1px solid transparent;
+height: 30px;
+/* white-space:nowrap;*/
+transition: all 0.3s;
+}
+
+.statistiquesTab th {
+background: #27ae60;
+font-weight: bold;
+}            
+
+.statistiquesTab td {
+background: #FAFAFA;
+text-align: center;
+}
+
+
+.statistiquesTab tr:nth-child(even) td { background: #F1F1F1; }
+.statistiquesTab tr:nth-child(odd) td { background: #FEFEFE; }
+.statistiquesTab tr td:hover { background: #666; color: #FFF;}
+
+
+
+.resTab td, th, tr {
+border: 1px solid transparent;
+height: 30px;
+transition: all 0.3s;
+}
+
+.resTab th {
+background: #27ae60;
+font-weight: bold;
+}            
+
+.resTab td {
+background: #FAFAFA;
+text-align: center;
+}
+
+
+.resTab tr:nth-child(even) td { background: #F1F1F1; }
+.resTab tr:nth-child(odd) td { background: #FEFEFE; }
+.resTab tr td:hover { background: gray; color: #FFF;}
+
+
+/*-------------------------------------------------SECTION--------------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+section {
+margin-top: 30px;
+/*padding: 10px;*/
+border-radius: 5px;
+opacity: 0.97;
+overflow: hidden;
+width: 100%;
+}
+
+#tableSection {
+background: #5477ad;
+}
+
+#welcome {
+border-radius: 20px;
+background: #e5e1b3;
+padding: 20px;
+margin: 20px;
+font-family: Lato, sans-serif;
+width:93%;
+}
+
+#presentation, #links {
+	padding-right: 30px;
+	background: #B0B0C9;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+#presentation {
+width: 50%;
+}
+
+#links{
+ width: 37%;
+font-family: Lato, sans-serif;
+ font-size: 20px;
+}
+
+article, aside{
+	width: 100%;
+	padding: 10px;
+}
+
+/*---------------------------------------------------TEXT----------------------------------------------------
+------------------------------------------------------------------------------------------------------------*/
+
+h1, h2, p {
+font-family: 'Lato', sans-serif;
+text-align: center;
+}
+
+h1 { 
+color: #b48608; 
+font-size: 44px; 
+font-weight: 400; 
+line-height: 44px; 
+margin: 0 0 12px; 
+}
+
+h2 {
+font-size: 24px;
+}
+
+p { 
+font-size: 18px; 
+}
+
+strong{
+font-weight: bold;
+}
+
+a {
+font-family: 'Lato', sans-serif; 
+color: #b48608; 
+text-decoration: none; }
+
+a:hover { 
+color: orange; 
+/*background: #b48608;*/ }
+
+
+
+
+
